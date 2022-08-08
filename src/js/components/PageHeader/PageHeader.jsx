@@ -1,5 +1,5 @@
 import React from "react";
-import "../../css/components/PageHeader.css";
+import "../../../css/components/PageHeader/PageHeader.css";
 import { motion } from "framer-motion";
 
 const ParentVariant = {

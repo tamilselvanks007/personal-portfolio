@@ -1,5 +1,5 @@
 import React from "react";
-import "../../css/components/Navbar.css";
+import "../../../css/components/Navbar/Navbar.css";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
