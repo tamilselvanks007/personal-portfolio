@@ -1,115 +1,44 @@
-.contact-wrap {
-  display: flex;
-  gap: 80px;
-  align-items: center;
-}
-.mail-text-wrap {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  color: #ffefda;
-}
-.mail-text-wrap p {
-  width: 45%;
-  font-size: 15px;
-  line-height: 17px;
-  font-weight: 400;
-  letter-spacing: -0.8px;
-}
-.mail-wrap {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-}
-
-.contact-mail {
+.contact-btn {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  right: 200px;
+  border-right: 1px solid rgb(131, 131, 131);
+  border-bottom: 1px solid rgb(131, 131, 131);
+  border-left: 1px solid rgb(131, 131, 131);
+  border-top: 1px solid transparent;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #dfd3c3;
-  line-height: 1.2rem;
-  background: 0 0;
-  border: none;
-  outline: 0;
-  font-family: "panchang", sans-serif;
-  position: relative;
 }
-.contact-mail a {
-  cursor: pointer;
-  font-size: 25px;
-  font-weight: 700;
+@media screen and (max-width: 884px) {
+  .contact-btn {
+    right: 80px;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 664px) {
+  .contact-btn {
+    right: 0;
+    width: 250px;
+    height: 250px;
+  }
+}
+.contact-btn h3 {
+  transform: rotate(-45deg);
+  overflow: hidden;
+}
+
+.contact-btn a {
   text-decoration: none;
-  color: #dfd3c3;
-  z-index: 99;
+  /* color: rgba(255, 254, 210, 0.575); */
+  color: black;
+  font-size: clamp(13px, 10px + 2vw, 27px);
+  font-weight: 100;
+  letter-spacing: 4px;
 }
-.contact-mail::after {
-  content: "";
-  position: absolute;
-  left: -30px;
-  transform: rotate(2deg);
-  /* background-image: url(../../assets/Images/brush-stroks.png); */
-  border: 2px solid #ffd700;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 115%;
-  height: 450%;
-}
-@media screen and (max-width: 1100px) {
-  .contact-mail a {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 880px) {
-  .contact-mail a {
-    font-size: 20px;
-  }
-  .mail-text-wrap {
-    justify-content: flex-start;
-  }
-  .mail-text-wrap p {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 770px) {
-  .contact-wrap {
-    flex-direction: column;
-  }
-  .mail-text-wrap {
-    width: 100%;
-    justify-content: flex-start;
-  }
-  .mail-text-wrap p {
-    width: 90%;
-    font-size: 20px;
-    line-height: 27px;
-  }
-  .mail-wrap {
-    width: 100%;
-    justify-content: flex-start;
-  }
-  .contact-mail a {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 550px) {
-  .contact-wrap {
-    flex-direction: column;
-  }
-  .mail-text-wrap {
-    width: 100%;
-    justify-content: flex-start;
-  }
-  .mail-text-wrap p {
-    width: 90%;
-    font-size: 15px;
-    line-height: 17px;
-  }
-  .mail-wrap {
-    width: 100%;
-    justify-content: flex-start;
-  }
-  .contact-mail a {
-    font-size: clamp(12px, 9px + 1.3vw, 20px);
-  }
+.contact-btn a:hover {
+  color: white;
 }
