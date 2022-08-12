@@ -43,6 +43,12 @@
   gap: 20px;
 }
 
+.resume-btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
 .contact {
   margin-top: 100px;
   width: 100%;
