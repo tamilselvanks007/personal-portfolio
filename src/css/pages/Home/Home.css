@@ -49,6 +49,21 @@
   padding: 10px;
 }
 
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  padding: 10px;
+  width: 100%;
+}
+
+.projects-wrap {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 50px; */
+  gap: 150px;
+}
+
 .contact {
   margin-top: 100px;
   width: 100%;
@@ -91,5 +106,14 @@
     width: 100%;
     left: 0;
     top: 50px;
+  }
+  .work {
+    gap: 80px;
+  }
+  .projects-wrap {
+    gap: 100px;
+  }
+  .work {
+    margin-top: 150px;
   }
 }

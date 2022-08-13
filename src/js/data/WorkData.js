@@ -1,0 +1,38 @@
+export const WorkData = [
+  {
+    id: 1,
+    name: "",
+    description: ``,
+    tags: [],
+    demo: "",
+    github: "",
+    side: true,
+  },
+  {
+    id: 2,
+    name: "",
+    description: ``,
+    tags: [],
+    demo: "",
+    github: "",
+    side: false,
+  },
+  {
+    id: 3,
+    name: "",
+    description: ``,
+    tags: [],
+    demo: "",
+    github: "",
+    side: true,
+  },
+  {
+    id: 4,
+    name: "",
+    description: ``,
+    tags: [],
+    demo: "",
+    github: "",
+    side: false,
+  },
+];
