@@ -64,16 +64,20 @@
   gap: 150px;
 }
 
-.contact {
-  margin-top: 100px;
+.skills {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 40px;
   margin-bottom: 30px;
+  margin-top: 100px;
 }
-.contact article {
-  width: 50%;
+
+.skills article {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 955px) {
@@ -115,5 +119,8 @@
   }
   .work {
     margin-top: 150px;
+  }
+  .skills article {
+    margin-bottom: -10px;
   }
 }

@@ -10,6 +10,7 @@ import CTABtn from "../../components/CTABtn/CTABtn";
 import WorkCard from "../../components/WorkCard/WorkCard";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import { WorkData } from "../../data/WorkData";
+import SkillsBox from "../../components/SkillsBox/SkillsBox";
 
 const Home = () => {
   const WCard = WorkData.map((work) => {
@@ -46,6 +47,12 @@ const Home = () => {
           <section className="work" id="work">
             <SectionTitle title="Selected Works :" />
             <div className="projects-wrap">{WCard}</div>
+          </section>
+          <section className="skills">
+            <article>
+              <SectionTitle title="My_ Skills" />
+            </article>
+            <SkillsBox />
           </section>
         </div>
       </motion.div>

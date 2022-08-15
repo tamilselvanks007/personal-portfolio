@@ -22,7 +22,7 @@ export const AboutInfo = () => {
   };
   return (
     <>
-      <p>
+      <p styles={style}>
         I'm Self-taught React.js/Front-end Developer.
         <br />
         <br />I build modern-day UI components to improve application
