@@ -11,6 +11,8 @@ import WorkCard from "../../components/WorkCard/WorkCard";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import { WorkData } from "../../data/WorkData";
 import SkillsBox from "../../components/SkillsBox/SkillsBox";
+import SocialConnect from "../../components/SocialConnect/SocialConnect";
+import AboutText from "../../components/AboutText/AboutText";
 
 const Home = () => {
   const WCard = WorkData.map((work) => {
@@ -53,6 +55,15 @@ const Home = () => {
               <SectionTitle title="My_ Skills" />
             </article>
             <SkillsBox />
+          </section>
+          <section className="about" id="about">
+            <article>
+              <SectionTitle title="About Me " />
+            </article>
+            <div>
+              <AboutText />
+              <SocialConnect dim="clamp(20px, 18px + 5vw, 55px)" />
+            </div>
           </section>
         </div>
       </motion.div>

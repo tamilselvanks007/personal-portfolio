@@ -80,6 +80,21 @@
   margin-bottom: 100px;
 }
 
+.about {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 170px;
+  width: 100%;
+}
+
+.about article {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 955px) {
   .contact article {
     width: 100%;
@@ -99,6 +114,12 @@
   }
   .intro {
     top: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about {
+    gap: 80px;
   }
 }
 
@@ -122,5 +143,11 @@
   }
   .skills article {
     margin-bottom: -10px;
+  }
+  .about {
+    gap: 60px;
+  }
+  .about article {
+    margin-bottom: 0px;
   }
 }
