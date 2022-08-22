@@ -13,6 +13,8 @@ import { WorkData } from "../../data/WorkData";
 import SkillsBox from "../../components/SkillsBox/SkillsBox";
 import SocialConnect from "../../components/SocialConnect/SocialConnect";
 import AboutText from "../../components/AboutText/AboutText";
+import ContactEmail from "../../components/ContactEmail/ContactEmail";
+import FooterNav from "../../components/FooterNav/FooterNav";
 
 const Home = () => {
   const WCard = WorkData.map((work) => {
@@ -40,7 +42,7 @@ const Home = () => {
             <div className="resume-btn-wrap">
               <CTABtn
                 text="Resume"
-                link=""
+                link="https://bit.ly/3T3AXfh"
                 padding="clamp(8px, 2px + 1vh, 10px)"
                 width="clamp(120px, 90px + 10vw, 220px)"
               />
@@ -64,6 +66,21 @@ const Home = () => {
               <AboutText />
               <SocialConnect dim="clamp(20px, 18px + 5vw, 55px)" />
             </div>
+          </section>
+          <section className="contact" id="connect">
+            <article>
+              <SectionTitle
+                title="Let's Have a Talk !"
+                fontSize="clamp(36px, 20px + 7vw, 80px)"
+              />
+            </article>
+            <ContactEmail />
+            <footer>
+              <SocialConnect dim="25px" size="15px" />
+              <div className="footer-content">
+                <FooterNav />
+              </div>
+            </footer>
           </section>
         </div>
       </motion.div>

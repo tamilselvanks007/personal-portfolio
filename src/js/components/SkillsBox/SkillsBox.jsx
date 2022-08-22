@@ -3,7 +3,14 @@ import "../../../css/components/SkillsBox/SkillsBox.css";
 
 const SkillsBox = () => {
   const Skills = {
-    WebSkills: ["React.js", "JavaScript", "SASS", "CSS3", "HTML5"],
+    WebSkills: [
+      "React.js",
+      "Material UI",
+      "Bootstrap",
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+    ],
     CompetetiveSkills: [
       "Node.js",
       "Express.js",
@@ -11,6 +18,7 @@ const SkillsBox = () => {
       "MySQL",
       "Mongoose",
     ],
+    Cloud: ["AWS (Lambda)"],
     Extras: ["Git", "Github", "VScode"],
   };
 
@@ -29,6 +37,14 @@ const SkillsBox = () => {
           <h3>Backend</h3>
           <ul>
             {Skills.CompetetiveSkills.map((skill, index) => {
+              return <li key={index}>{skill}</li>;
+            })}
+          </ul>
+        </div>
+        <div className="skills-colomn-wrap">
+          <h3>Cloud</h3>
+          <ul>
+            {Skills.Cloud.map((skill, index) => {
               return <li key={index}>{skill}</li>;
             })}
           </ul>

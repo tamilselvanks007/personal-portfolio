@@ -33,13 +33,13 @@ const SocialConnect = ({ dim, size }) => {
       <ul className="socials-wrap">
         <Socials
           text="instagram"
-          to="https://www.instagram.com/iamtamilselvank/"
+          to="https://www.instagram.com/iamtamilselvank"
           dimenssion={dim}
           fontSize={size}
         />
         <Socials
           text="linkedin"
-          to="https://www.linkedin.com/in/tamilselvan-k-0ba903187/"
+          to="https://www.linkedin.com/in/tamilselvankalimuthu"
           dimenssion={dim}
           fontSize={size}
         />
