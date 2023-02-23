@@ -1,7 +1,7 @@
 .section-title {
   font-size: clamp(35px, 20px + 5vw, 100px);
   font-family: "panchang", sans-serif;
-  color: #ffd700;
+  color: #c41e1e;
   line-height: 50px;
 }
 @media screen and (min-width: 720px) {

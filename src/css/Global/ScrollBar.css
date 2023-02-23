@@ -3,17 +3,17 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #181818;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(255, 250, 201);
+  background: #c41e1e;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #ffe1a5;
-}
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #cecece;
+} */
 html {
-  scrollbar-color: rgb(255, 250, 201) #0a0a0a;
+  scrollbar-color: #cecece #181818;
   scrollbar-width: thin;
 }

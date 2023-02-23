@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #022c43;
+  background-color: #cecece;
   overflow: hidden;
 }
 .loader-wrap {
@@ -16,7 +16,7 @@
   font-size: 20px;
   font-weight: 100;
   font-family: "panchang";
-  color: #fff;
+  color: #000;
 }
 .counter {
   position: absolute;
@@ -25,13 +25,13 @@
 .loader-container p {
   font-size: 18px;
   font-family: "panchang", sans-serif;
-  color: #fff;
+  color: #000;
 }
 .loader-bar {
   position: absolute;
   height: 5px;
   width: 100vw;
-  background-color: #ffd700;
+  background-color: #c41e1e;
   border-radius: 100px;
   top: 55%;
 }

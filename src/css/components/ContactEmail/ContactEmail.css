@@ -7,7 +7,7 @@
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  color: #ffefda;
+  color: #181818;
 }
 .mail-text-wrap p {
   width: 45%;
@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #dfd3c3;
+  color: #181818;
   line-height: 1.2rem;
   background: 0 0;
   border: none;
@@ -39,7 +39,7 @@
   font-size: 25px;
   font-weight: 700;
   text-decoration: none;
-  color: #dfd3c3;
+  color: #181818;
   z-index: 99;
 }
 .contact-mail::after {
@@ -48,7 +48,7 @@
   left: -30px;
   transform: rotate(2deg);
   /* background-image: url(../../assets/Images/brush-stroks.png); */
-  border: 2px solid #ffd700;
+  border: 2px solid #c41e1e;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-size: contain;

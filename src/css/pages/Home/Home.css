@@ -1,13 +1,13 @@
 /*### -------WholePageBody-------- #*/
 
 .page {
-  background-color: #022c43;
+  background-color: #cecece;
   overflow: hidden;
 }
 
 /*## --------Navbar and Header-------- #*/
 .head-wrap {
-  color: #ffd700;
+  color: #c41e1e;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
