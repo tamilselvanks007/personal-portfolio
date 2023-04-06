@@ -13,7 +13,7 @@
 .footer-menue a {
   all: unset;
   cursor: pointer;
-  color: #181818;
+  color: rgb(255,255,255);
 }
 .footer-menue ul li a {
   position: relative;
@@ -27,7 +27,7 @@
   height: 0.5px;
   bottom: 0;
   right: 0;
-  background-color: #181818;
+  background-color: #fffff0;
   transform-origin: bottom right;
   transition: transform 1s cubic-bezier(0, 0, 0.44, 1.1);
 }

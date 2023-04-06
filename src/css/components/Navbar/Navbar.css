@@ -6,6 +6,7 @@
 .main-menue {
   display: flex;
   justify-content: flex-end;
+  color: #ffd700;
   width: 100%;
 }
 @media screen and (max-width: 426px) {
@@ -28,7 +29,7 @@
 .main-menue a {
   all: unset;
   cursor: pointer;
-  color: #c41e1e;
+  color: #ffd700;
 }
 .main-menue ul li a {
   position: relative;
@@ -56,7 +57,7 @@
   opacity: 0;
 }
 .main-menue ul li a:hover {
-  color: #cecece;
+  color: #fff;
   z-index: 1;
 }
 .main-menue ul li a:hover:after {
@@ -79,6 +80,6 @@
   100% {
     width: 100%;
     height: 100%;
-    background: #c41e1e;
+    background: #ffd700;
   }
 }

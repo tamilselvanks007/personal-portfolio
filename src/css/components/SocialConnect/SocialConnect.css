@@ -1,5 +1,5 @@
 .one-social-wrap {
-  color: #c41e1e;
+  color: #ffd700;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -17,7 +17,7 @@
   display: inline-block;
   font-size: clamp(18px, 10px + 2.5vw, 30px);
   text-decoration: none;
-  color: #181818;
+  color: rgb(255,245,232);
   font-family: "panchang", sans-serif;
   font-weight: 800;
 }
@@ -29,7 +29,7 @@
   height: 3px;
   bottom: 0;
   right: 0;
-  background-color: #181818;
+  background-color: #fffff0;
   transform-origin: bottom right;
   transition: transform 0.5s cubic-bezier(0, 0, 0.44, 1.1);
 }

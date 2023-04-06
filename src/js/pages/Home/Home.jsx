@@ -29,7 +29,7 @@ const Home = () => {
         transition={{ ease: "easeInOut" }}
       >
         <div className="head-wrap" id="home">
-          <Navbar />
+        <Navbar />
           <div className="head">
             <PageHeader />
             <SkillsIntro />
@@ -54,7 +54,7 @@ const Home = () => {
           </section>
           <section className="skills">
             <article>
-              <SectionTitle title="My_ Skills" />
+              <SectionTitle title="My Skills" />
             </article>
             <SkillsBox />
           </section>

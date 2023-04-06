@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="main-menue">
           <ul>
             <li>
-              <a href="#home"> Home </a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="#work">Work</a>

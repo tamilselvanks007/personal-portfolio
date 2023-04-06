@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #cecece;
+  background-color: #022c43;
   overflow: hidden;
 }
 .loader-wrap {
@@ -31,7 +31,7 @@
   position: absolute;
   height: 5px;
   width: 100vw;
-  background-color: #c41e1e;
+  background-color: #ffd700;
   border-radius: 100px;
   top: 55%;
 }

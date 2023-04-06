@@ -3,9 +3,9 @@
   width: 400px;
   height: 400px;
   right: 200px;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
-  border-left: 1px solid #000;
+  border-right: 1px solid rgb(131,131,131);
+  border-bottom: 1px solid rgb(131,131,131);
+  border-left: 1px solid rgb(131,131,131);
   border-top: 1px solid transparent;
   border-radius: 50%;
   display: flex;
@@ -40,5 +40,5 @@
   letter-spacing: 4px;
 }
 .contact-btn a:hover {
-  color: #c41e1e;
+  color: white;
 }
